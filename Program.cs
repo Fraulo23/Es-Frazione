@@ -11,8 +11,8 @@ namespace Es_Frazione
         static void Main(string[] args)
         {
             Frazione f = new Frazione(16, 32);
-            Frazione f2=Frazione.Parse(f.ToString());
-            Console.WriteLine(f2);
+            Frazione f1=Frazione.Parse(f.ToString());
+            Console.WriteLine(f1);
             Console.ReadLine();
         }
     }
